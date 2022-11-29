@@ -1,6 +1,5 @@
 import argparse
 import sys
-import rumus_glbb as glbb
 
 def main():
     parser = argparse.ArgumentParser()
@@ -20,7 +19,7 @@ def rumus(args):
         Vt = args.V0 + (args.a*args.t)
         return Vt
     elif args.rumus == 's':
-        s = args.V0*args.t + ((args.a*(args.t**2))/2)
+        s = (args.V0*args.t) + ((args.a*(args.t**2))/2)
         return s
 
 if __name__ == '__main__':
