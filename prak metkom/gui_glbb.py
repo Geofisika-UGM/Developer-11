@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import Tk, Canvas, Frame, BOTH
 import tkinter.font
-from aduh import glbb
+from modul_glbb import glbb
 
 root = Tk()
 root.geometry('600x600')
